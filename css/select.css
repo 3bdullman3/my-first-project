@@ -1,0 +1,35 @@
+:root{
+    --bg-primary: #3572e0;
+    --color-primary: #3572e0;
+    --color-secondary: #6eb3f6;
+    --color-tertiary: #6eb3f6;
+    --color-light: #e5f9ff;
+    --color-dark: #1c2776;
+    --font-primary: 'Open Sans', sans-serif;
+}
+
+select{
+    width: 80%;
+
+    border: none;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+  select:hover {
+    border-bottom: 2px solid var(--color-tertiary);
+    transform: translateY(-10px);
+  }
+  select option{
+    font-size: 14px;
+    background-color: var(--color-light);
+   
+  }
+select option:hover{
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    font-size: 16px;
+}
